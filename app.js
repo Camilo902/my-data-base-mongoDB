@@ -8,7 +8,7 @@ const app = express();
 
 app.use(express.json());
 
-// Conectar a la base de datos
+
 connectDB();
 
 const tareaRoutes = require('./routes/tareaRoutes');
